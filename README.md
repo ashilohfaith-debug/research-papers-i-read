@@ -1,9 +1,7 @@
-# Research Papers Reading List
-
 # 120-Day Research Paper Reading List
 ## Essential Papers for AI/ML/LLM/Agentic AI Mastery
 
-**Note:** This list provides ONE paper per day (matching the 1-hour daily research hour system from the roadmap). Papers are organized by rotating track (Mon-Sun pattern) and should be read at the specified level of depth. Each entry includes:
+**Note:** This list provides ONE paper per day. Papers are organized by rotating track (Mon-Sun pattern) and should be read at the specified level of depth. Each entry includes:
 - **Day & Date:** When to read it in the 120-day roadmap
 - **Track:** Which rotating theme (LLM, Agentic, Quantum, Bio+AI, Physical AI, Chem+AI, Free choice)
 - **Paper Title & Link:** Full citation + arXiv/official link
