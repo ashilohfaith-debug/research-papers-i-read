@@ -15,7 +15,7 @@
 
 ## WEEK 1 (Days 1-7)
 
-### Day 1 — Friday Sept 4 — LLM/Transformer Track (Orientation)
+### Day 1 — Monday Sept 7 — LLM/Transformer Track (Orientation)
 **Paper:** [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - **Authors:** Vaswani et al., 2017
 - **Why it matters:** The foundational transformer architecture paper — literally created the architecture that powers every major LLM today (GPT, BERT, Llama, etc.). This is THE paper.
@@ -29,7 +29,7 @@
 
 ---
 
-### Day 2 — Saturday Sept 5 — AI+Chemistry/Materials Track
+### Day 2 — Tuesday Sept 8 — AI+Chemistry/Materials Track
 **Paper:** [Equivariant Graph Neural Networks for Crystal Structures and Properties Prediction](https://arxiv.org/abs/2206.03349)
 - **Authors:** Dusson et al., 2022 (or use a simpler crystal-structure ML paper if this feels too advanced — search "SchNet crystal structure" for a slightly gentler entry)
 - **Why it matters:** Shows how neural networks can learn to predict molecular/crystal properties from structure — direct application of deep learning to materials science
@@ -43,7 +43,7 @@
 
 ---
 
-### Day 3 — Sunday Sept 6 — Free Choice / Exploration Track
+### Day 3 — Wednesday Sept 9 — Free Choice / Exploration Track
 **Paper:** [Foundational LLM Papers You're Curious About](https://huggingface.co/papers)
 - **Instructions for Day 3:** Visit Hugging Face Daily Papers (https://huggingface.co/papers), scroll through "trending" papers today, and pick ONE that sounds interesting to you (any field, any depth). The point is to start building the habit of exploring without a rigid agenda once per week.
 - **Why it matters:** Builds pattern recognition and serendipity — sometimes the papers that shape your thinking are the random ones you stumble into
@@ -52,7 +52,7 @@
 
 ---
 
-### Day 4 — Monday Sept 7 — LLM/Transformer Track
+### Day 4 — Thursday Sept 10 — LLM/Transformer Track
 **Paper:** [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 - **Authors:** Devlin et al., Google, 2018
 - **Why it matters:** The paper that made masked language modeling famous — established encoder-only, bidirectional pretraining (contrasts with GPT's decoder-only, causal approach). You need to know BERT to understand why GPT was different and revolutionary.
@@ -66,7 +66,7 @@
 
 ---
 
-### Day 5 — Tuesday Sept 8 — Agentic AI Track (Orientation)
+### Day 5 — Friday Sept 11 — Agentic AI Track (Orientation)
 **Paper:** [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 - **Authors:** Yao et al., 2022
 - **Why it matters:** Foundational agentic reasoning pattern — shows that having an LLM explicitly write out Thought/Action/Observation steps improves multi-step task performance. This is the core loop behind modern agents.
@@ -79,7 +79,7 @@
 
 ---
 
-### Day 6 — Wednesday Sept 9 — Quantum Computing Track (Orientation)
+### Day 6 — Saturday Sept 12 — Quantum Computing Track (Orientation)
 **Paper:** [Quantum Computing in the NISQ era and beyond](https://arxiv.org/abs/1801.00862)
 - **Authors:** Preskill, 2018
 - **Why it matters:** The definitive overview of Noisy Intermediate-Scale Quantum computing — what quantum computers can actually do today (not sci-fi), and what the roadmap looks like. Essential context for "quantum + AI" discussions.
@@ -93,14 +93,14 @@
 
 ---
 
-### Day 7 — Thursday Sept 10 — REVIEW & BUFFER DAY
+### Day 7 — Sunday Sept 13 — REVIEW & BUFFER DAY
 **No new paper.** Use this day to re-skim one of the papers from this week that felt hardest, and add 2-3 flashcards for core concepts.
 
 ---
 
 ## WEEK 2 (Days 8-14)
 
-### Day 8 — Friday Sept 11 — AI+Biology Track
+### Day 8 — Monday Sept 14 — AI+Biology Track
 **Paper:** [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) or [ArXiv version](https://arxiv.org/abs/2010.11288)
 - **Authors:** Jumper et al., DeepMind, 2020 (published Nature 2021)
 - **Why it matters:** Solved a 50-year-old problem (protein structure prediction) using deep learning — a watershed moment for AI+biology. Shows the power of ML applied to hard scientific problems.
@@ -114,7 +114,7 @@
 
 ---
 
-### Day 9 — Saturday Sept 12 — Physical AI / Robotics Track
+### Day 9 — Tuesday Sept 15 — Physical AI / Robotics Track
 **Paper:** [Mobile ALOHA: Learning Bimanual Mobile Manipulation](https://arxiv.org/abs/2401.02117)
 - **Authors:** Fu et al., Stanford, 2024
 - **Why it matters:** Shows physical robots learning to manipulate objects by watching human demonstrations — embodied AI where the "thinking" must be grounded in the real world
@@ -128,12 +128,12 @@
 
 ---
 
-### Day 10 — Sunday Sept 13 — Free Choice
+### Day 10 — Wednesday Sept 16 — Free Choice
 **Hugging Face Daily Papers** — pick another interesting paper, any domain.
 
 ---
 
-### Day 11 — Monday Sept 14 — LLM/Transformer Track
+### Day 11 — Thursday Sept 17 — LLM/Transformer Track
 **Paper:** [Language Models are Unsupervised Multitask Learners (GPT-2)](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 - **Authors:** Radford et al., OpenAI, 2019
 - **Why it matters:** The paper that showed "just scale up a decoder-only transformer on internet text, and it learns to do many tasks via prompting." Established the GPT lineage and the philosophy behind modern LLMs.
@@ -146,7 +146,7 @@
 
 ---
 
-### Day 12 — Tuesday Sept 15 — Agentic AI Track
+### Day 12 — Friday Sept 18 — Agentic AI Track
 **Paper:** [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
 - **Authors:** Schick et al., Meta, 2023
 - **Why it matters:** Early influential work showing that LLMs can learn to call tools (APIs) from self-supervised data generation — the precursor to modern tool-calling agents
@@ -160,7 +160,7 @@
 
 ---
 
-### Day 13 — Wednesday Sept 16 — Quantum+AI Track
+### Day 13 — Saturday Sept 19 — Quantum+AI Track
 **Paper:** [Quantum machine learning in feature Hilbert spaces](https://arxiv.org/abs/1803.07128) or [Quantum Computing for Machine Learning](https://arxiv.org/abs/2209.00045)
 - **Authors:** Schuld & Killoran, 2019 (or Schuld et al., 2022 for the second)
 - **Why it matters:** Explores where quantum computing might actually accelerate machine learning (kernel methods, sampling, optimization) — honest about what's still theoretical vs. near-term practical
@@ -174,14 +174,14 @@
 
 ---
 
-### Day 14 — Thursday Sept 17 — REVIEW & BUFFER DAY
+### Day 14 — Sunday Sept 20 — REVIEW & BUFFER DAY
 **No new paper.** Review this week's papers, add flashcards for: BERT vs. GPT architectural difference, ReAct loop phases, AlphaFold protein structure insight.
 
 ---
 
 ## WEEK 3 (Days 15-21)
 
-### Day 15 — Friday Sept 18 — AI+Biology Track
+### Day 15 — Monday Sept 21 — AI+Biology Track
 **Paper:** [Generative modeling for protein design](https://arxiv.org/abs/2304.12954) (or a recent protein generation paper from 2024 — check HF Daily Papers for "protein generation + LLM")
 - **Why it matters:** Using deep generative models (diffusion or transformers) to design new proteins with desired properties — generative AI applied to structural biology
 - **Prerequisite knowledge:** Transformers, embeddings, protein structure basics
@@ -194,7 +194,7 @@
 
 ---
 
-### Day 16 — Saturday Sept 19 — Physical AI / Robotics Track
+### Day 16 — Tuesday Sept 22 — Physical AI / Robotics Track
 **Paper:** [Learning to manipulate deformable objects without demonstrations](https://arxiv.org/abs/1910.04677) or [Learning from Play](https://arxiv.org/abs/1802.10675)
 - **Why it matters:** Robots learning from self-play rather than demonstrations — more general than imitation learning
 - **Prerequisite knowledge:** Reinforcement learning basics (you haven't studied this yet, but the paper is still skimmable)
@@ -207,12 +207,12 @@
 
 ---
 
-### Day 17 — Sunday Sept 20 — Free Choice
+### Day 17 — Wednesday Sept 23 — Free Choice
 **Hugging Face Daily Papers** — pick one
 
 ---
 
-### Day 18 — Monday Sept 21 — LLM/Transformer Track
+### Day 18 — Thursday Sept 24 — LLM/Transformer Track
 **Paper:** [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155)
 - **Authors:** Ouyang et al., OpenAI, 2022
 - **Why it matters:** The paper that established the SFT → RM → RLHF pipeline for turning a base LLM into a helpful assistant. This is the exact workflow behind ChatGPT and modern instruction-tuned models.
@@ -226,7 +226,7 @@
 
 ---
 
-### Day 19 — Tuesday Sept 22 — Agentic AI Track
+### Day 19 — Friday Sept 25 — Agentic AI Track
 **Paper:** [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)
 - **Authors:** Madaan et al., 2023
 - **Why it matters:** Agents that give themselves feedback and refine their outputs — a step beyond ReAct. Shows agentic loops can be used for self-improvement
@@ -240,7 +240,7 @@
 
 ---
 
-### Day 20 — Wednesday Sept 23 — Quantum Computing Track
+### Day 20 — Saturday Sept 26 — Quantum Computing Track
 **Paper:** [Quantum Advantage in Learning from Experiments](https://arxiv.org/abs/2112.00882) or [Quantum machine learning at the boundary of quantum computing](https://www.nature.com/articles/s43588-022-00353-7)
 - **Why it matters:** Honest assessment of where quantum ML might actually provide advantages — tempers hype with realism
 - **Prerequisite knowledge:** Quantum computing, ML basics
@@ -253,14 +253,14 @@
 
 ---
 
-### Day 21 — Thursday Sept 24 — REVIEW & BUFFER DAY
+### Day 21 — Sunday Sept 27 — REVIEW & BUFFER DAY
 **No new paper.** Review weeks 1-3, consolidate flashcards, re-read InstructGPT abstract and the 3-step diagram.
 
 ---
 
 ## WEEK 4 (Days 22-28)
 
-### Day 22 — Friday Sept 25 — AI+Chemistry/Materials Track
+### Day 22 — Monday Sept 28 — AI+Chemistry/Materials Track
 **Paper:** [Equivariant neural networks for direct force field fitting](https://arxiv.org/abs/2305.10537) or [Learning equivariant neural networks for molecular geometry](https://arxiv.org/abs/1812.00568)
 - **Why it matters:** Using graph neural networks with symmetry constraints (equivariance) to predict molecular/materials properties — foundational for AI+chemistry
 - **Prerequisite knowledge:** Graph neural networks, molecular representations
@@ -273,7 +273,7 @@
 
 ---
 
-### Day 23 — Saturday Sept 26 — Physical AI / Robotics Track
+### Day 23 — Tuesday Sept 29 — Physical AI / Robotics Track
 **Paper:** [End-to-End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
 - **Authors:** Bojarski et al., NVIDIA, 2016
 - **Why it matters:** Foundational paper on end-to-end neural networks for autonomous vehicles — shows deep learning directly from images to control signals
@@ -288,12 +288,12 @@
 
 ---
 
-### Day 24 — Sunday Sept 27 — Free Choice
+### Day 24 — Wednesday Sept 30 — Free Choice
 **Hugging Face Daily Papers** — pick one
 
 ---
 
-### Day 25 — Monday Sept 27 — LLM/Transformer Track
+### Day 25 — Thursday Oct 1 — LLM/Transformer Track
 **Paper:** [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
 - **Authors:** Kaplan et al., OpenAI, 2020
 - **Why it matters:** Empirically established that LLM performance scales as a power law with model size, dataset size, and compute — foundational for understanding why "bigger = better" works
@@ -307,7 +307,7 @@
 
 ---
 
-### Day 26 — Tuesday Sept 28 — Agentic AI Track
+### Day 26 — Friday Oct 2 — Agentic AI Track
 **Paper:** [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 - **Authors:** Wei et al., Google, 2022
 - **Why it matters:** The chain-of-thought idea (show examples with step-by-step reasoning) dramatically improves LLM performance on reasoning tasks. Foundational for understanding why reasoning-based agents work
@@ -321,7 +321,7 @@
 
 ---
 
-### Day 27 — Wednesday Sept 29 — Quantum+AI Track
+### Day 27 — Saturday Oct 3 — Quantum+AI Track
 **Paper:** [Quantum Neural Networks with Classical Resources](https://arxiv.org/abs/2310.11746) or [Quantum computing for finance: portfolio optimization](https://arxiv.org/abs/2007.10314)
 - **Why it matters:** Practical (or near-practical) quantum ML applications — what could actually run on near-term quantum hardware
 - **Prerequisite knowledge:** Quantum basics, ML basics
@@ -333,7 +333,7 @@
 
 ---
 
-### Day 28 — Thursday Sept 30 — REVIEW & BUFFER DAY
+### Day 28 — Sunday Oct 4 — REVIEW & BUFFER DAY
 **No new paper.** Review month 1's papers. You should now have ~20 papers under your belt and be developing real pattern recognition for what papers are about before reading them.
 
 ---
@@ -345,140 +345,140 @@
 ### Weeks 5-6 (Classical ML + Neural Nets): Focus on foundational ML papers
 
 **Day 29-34 (Week 5) — Core Classical ML & NN Papers:**
-- **Day 29 (Mon, LLM):** Skip (Classical ML week) → Switch to [Gradient-based optimization papers](https://arxiv.org/abs/1609.04747) "An overview of gradient descent optimization algorithms" (Ruder, 2016)
-- **Day 30 (Tue, Agentic):** [Markov Decision Processes for agents](https://arxiv.org/abs/1312.5602) or skip if Classical ML week — grab "A Brief Introduction to Machine Learning for Engineers" by Kording (accessible overview)
-- **Day 31 (Wed, Quantum):** Skip classical ML week — re-read intro materials from weeks 1-4
-- **Day 32 (Thu, Bio):** [Machine learning for drug discovery](https://arxiv.org/abs/2312.09434) or [Predicting binding affinity of small molecules to protein targets](https://arxiv.org/abs/2011.12278)
-- **Day 33 (Fri, Physical):** [Vision Transformers for robotics](https://arxiv.org/abs/2210.13298)
-- **Day 34 (Sat, Chem):** [Graph Neural Networks for Molecular Generation](https://arxiv.org/abs/1905.13372)
-- **Day 35 (Sun):** Buffer + free choice
-- **Day 36 (Mon, LLM):** [Batch Normalization: Accelerating Deep Network Training](https://arxiv.org/abs/1502.03167) (Ioffe & Szegedy, 2015) — foundational for training stability
+- **Day 29 (Thu, LLM):** Skip (Classical ML week) → Switch to [Gradient-based optimization papers](https://arxiv.org/abs/1609.04747) "An overview of gradient descent optimization algorithms" (Ruder, 2016)
+- **Day 30 (Fri, Agentic):** [Markov Decision Processes for agents](https://arxiv.org/abs/1312.5602) or skip if Classical ML week — grab "A Brief Introduction to Machine Learning for Engineers" by Kording (accessible overview)
+- **Day 31 (Sat, Quantum):** Skip classical ML week — re-read intro materials from weeks 1-4
+- **Day 32 (Sun, Bio):** [Machine learning for drug discovery](https://arxiv.org/abs/2312.09434) or [Predicting binding affinity of small molecules to protein targets](https://arxiv.org/abs/2011.12278)
+- **Day 33 (Mon, Physical):** [Vision Transformers for robotics](https://arxiv.org/abs/2210.13298)
+- **Day 34 (Tue, Chem):** [Graph Neural Networks for Molecular Generation](https://arxiv.org/abs/1905.13372)
+- **Day 35 (Wed):** Buffer + free choice
+- **Day 36 (Thu, LLM):** [Batch Normalization: Accelerating Deep Network Training](https://arxiv.org/abs/1502.03167) (Ioffe & Szegedy, 2015) — foundational for training stability
 
 **Day 36-42 (Week 6):**
-- **Day 37 (Tue, Agentic):** [Reinforcement Learning: An Introduction](https://en.wikipedia.org/wiki/Reinforcement_learning) — skim basic RL intuition (you don't have a specific paper to read, but check [Sutton & Barto's RL book chapters](http://incompleteideas.net/book/the-book.html) if available, or an arXiv survey)
-- **Day 38 (Wed, Quantum):** [Quantum annealing for optimization](https://arxiv.org/abs/1702.04550)
-- **Day 39 (Thu, Bio):** [AlphaFold2 revisited or new protein structure method](https://arxiv.org/abs/2305.14709) (ProtBERT for sequence understanding)
-- **Day 40 (Fri, Physical):** [Visuomotor robot learning](https://arxiv.org/abs/1611.06759) or [Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1807.06358)
-- **Day 41 (Sat, Chem):** [Molecular fingerprints from neural networks](https://arxiv.org/abs/1707.04497) or [SchNet revisited for molecular property prediction](https://arxiv.org/abs/1706.08318)
-- **Day 42 (Sun, Buffer):** Review & skip paper
+- **Day 37 (Fri, Agentic):** [Reinforcement Learning: An Introduction](https://en.wikipedia.org/wiki/Reinforcement_learning) — skim basic RL intuition (you don't have a specific paper to read, but check [Sutton & Barto's RL book chapters](http://incompleteideas.net/book/the-book.html) if available, or an arXiv survey)
+- **Day 38 (Sat, Quantum):** [Quantum annealing for optimization](https://arxiv.org/abs/1702.04550)
+- **Day 39 (Sun, Bio):** [AlphaFold2 revisited or new protein structure method](https://arxiv.org/abs/2305.14709) (ProtBERT for sequence understanding)
+- **Day 40 (Mon, Physical):** [Visuomotor robot learning](https://arxiv.org/abs/1611.06759) or [Model-Based Reinforcement Learning for Atari](https://arxiv.org/abs/1807.06358)
+- **Day 41 (Tue, Chem):** [Molecular fingerprints from neural networks](https://arxiv.org/abs/1707.04497) or [SchNet revisited for molecular property prediction](https://arxiv.org/abs/1706.08318)
+- **Day 42 (Wed, Buffer):** Review & skip paper
 
 ---
 
 ### Weeks 7-8 (Deep Learning: CNN/RNN): Focus on NN architectures
 
 **Day 43-49 (Week 7):**
-- **Day 43 (Mon, LLM):** [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) — read Karpathy's official notes or [Krizhevsky et al. ImageNet classification](https://arxiv.org/abs/1202.2745) (AlexNet, 2012)
-- **Day 44 (Tue, Agentic):** [Deep Reinforcement Learning: Playing Atari](https://arxiv.org/abs/1312.5602) (DQN, Mnih et al., DeepMind)
-- **Day 45 (Wed, Quantum):** [Quantum circuits for classification](https://arxiv.org/abs/1908.10846)
-- **Day 46 (Thu, Bio):** [Predicting protein interactions with deep learning](https://arxiv.org/abs/1707.01495) or [DeepSeq variant effect prediction](https://arxiv.org/abs/1503.01057)
-- **Day 47 (Fri, Physical):** [Deep Learning for Autonomous Driving sensors](https://arxiv.org/abs/2005.02475)
-- **Day 48 (Sat, Chem):** [Neural Message Passing for Quantum Chemistry](https://arxiv.org/abs/1704.01212) (Gilmer et al.)
-- **Day 49 (Sun, Buffer):** Review & skip paper
+- **Day 43 (Thu, LLM):** [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) — read Karpathy's official notes or [Krizhevsky et al. ImageNet classification](https://arxiv.org/abs/1202.2745) (AlexNet, 2012)
+- **Day 44 (Fri, Agentic):** [Deep Reinforcement Learning: Playing Atari](https://arxiv.org/abs/1312.5602) (DQN, Mnih et al., DeepMind)
+- **Day 45 (Sat, Quantum):** [Quantum circuits for classification](https://arxiv.org/abs/1908.10846)
+- **Day 46 (Sun, Bio):** [Predicting protein interactions with deep learning](https://arxiv.org/abs/1707.01495) or [DeepSeq variant effect prediction](https://arxiv.org/abs/1503.01057)
+- **Day 47 (Mon, Physical):** [Deep Learning for Autonomous Driving sensors](https://arxiv.org/abs/2005.02475)
+- **Day 48 (Tue, Chem):** [Neural Message Passing for Quantum Chemistry](https://arxiv.org/abs/1704.01212) (Gilmer et al.)
+- **Day 49 (Wed, Buffer):** Review & skip paper
 
 **Day 50-56 (Week 8):**
-- **Day 50 (Mon, LLM):** [LSTM: A Search Space Odyssey](https://arxiv.org/abs/1503.04069) (Greff et al.) — compares LSTM variants
-- **Day 51 (Tue, Agentic):** [Policy Gradient Methods](https://arxiv.org/abs/1602.01783) (A3C, Mnih et al., DeepMind)
-- **Day 52 (Wed, Quantum):** [Variational Quantum Algorithms](https://arxiv.org/abs/1510.01179)
-- **Day 53 (Thu, Bio):** [Genomics + deep learning for variant prediction](https://arxiv.org/abs/1710.06899) or [DeepVariant genome variant calling](https://www.nature.com/articles/nbt.4235)
-- **Day 54 (Fri, Physical):** [Vision-based manipulation learning](https://arxiv.org/abs/1509.02689)
-- **Day 55 (Sat, Chem):** [Molecular generation via RNNs](https://arxiv.org/abs/1703.07076) (Segler et al.)
-- **Day 56 (Sun, Buffer):** Review
+- **Day 50 (Thu, LLM):** [LSTM: A Search Space Odyssey](https://arxiv.org/abs/1503.04069) (Greff et al.) — compares LSTM variants
+- **Day 51 (Fri, Agentic):** [Policy Gradient Methods](https://arxiv.org/abs/1602.01783) (A3C, Mnih et al., DeepMind)
+- **Day 52 (Sat, Quantum):** [Variational Quantum Algorithms](https://arxiv.org/abs/1510.01179)
+- **Day 53 (Sun, Bio):** [Genomics + deep learning for variant prediction](https://arxiv.org/abs/1710.06899) or [DeepVariant genome variant calling](https://www.nature.com/articles/nbt.4235)
+- **Day 54 (Mon, Physical):** [Vision-based manipulation learning](https://arxiv.org/abs/1509.02689)
+- **Day 55 (Tue, Chem):** [Molecular generation via RNNs](https://arxiv.org/abs/1703.07076) (Segler et al.)
+- **Day 56 (Wed, Buffer):** Review
 
 ---
 
 ### Weeks 9-10 (Transformers Deep Dive): Core transformer papers
 
 **Day 57-63 (Week 9):**
-- **Day 58 (Mon, LLM):** **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)** (DEEP read this time, not skim) — Sections 3-4, full attention mechanism, positional encoding math
-- **Day 59 (Tue, Agentic):** [Transformers Can Do Bayesian Inference](https://arxiv.org/abs/2106.14881) or [In-Context Learning in Transformers](https://arxiv.org/abs/2208.01066) (Garg et al.)
-- **Day 60 (Wed, Quantum):** [Quantum Transformers](https://arxiv.org/abs/2312.11036) or skip, review Attention Is All You Need deeper
-- **Day 61 (Thu, Bio):** [ESM-2: Language models for proteins](https://arxiv.org/abs/2303.02735) (Meta's protein language model)
-- **Day 62 (Fri, Physical):** [Transformers for embodied vision-language](https://arxiv.org/abs/2310.08864) or skip, do Attention Is All You Need deep dive
-- **Day 63 (Sat, Chem):** [Transformers for molecular design](https://arxiv.org/abs/2011.10379) or [Transformer molecular generation](https://arxiv.org/abs/2106.06573)
-- **Day 64 (Sun, Buffer):** Review
+- **Day 58 (Thu, LLM):** **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)** (DEEP read this time, not skim) — Sections 3-4, full attention mechanism, positional encoding math
+- **Day 59 (Fri, Agentic):** [Transformers Can Do Bayesian Inference](https://arxiv.org/abs/2106.14881) or [In-Context Learning in Transformers](https://arxiv.org/abs/2208.01066) (Garg et al.)
+- **Day 60 (Sat, Quantum):** [Quantum Transformers](https://arxiv.org/abs/2312.11036) or skip, review Attention Is All You Need deeper
+- **Day 61 (Sun, Bio):** [ESM-2: Language models for proteins](https://arxiv.org/abs/2303.02735) (Meta's protein language model)
+- **Day 62 (Mon, Physical):** [Transformers for embodied vision-language](https://arxiv.org/abs/2310.08864) or skip, do Attention Is All You Need deep dive
+- **Day 63 (Tue, Chem):** [Transformers for molecular design](https://arxiv.org/abs/2011.10379) or [Transformer molecular generation](https://arxiv.org/abs/2106.06573)
+- **Day 64 (Wed, Buffer):** Review
 
 **Day 65-70 (Week 10):**
-- **Day 65 (Mon, LLM):** [Efficient Attention Mechanisms](https://arxiv.org/abs/2009.14794) (linformer, or survey of efficient attention)
-- **Day 66 (Tue, Agentic):** [Hierarchical Reinforcement Learning + Transformers](https://arxiv.org/abs/2301.10149) or [Decision Transformers](https://arxiv.org/abs/2106.01022)
-- **Day 67 (Wed, Quantum):** [Quantum simulation with transformers](https://arxiv.org/abs/2309.07747) or free choice
-- **Day 68 (Thu, Bio):** [Protein design via Transformers](https://arxiv.org/abs/2306.11817) or [OmegaFold protein structure](https://arxiv.org/abs/2302.10221)
-- **Day 69 (Fri, Physical):** [Transformers for 3D scene understanding](https://arxiv.org/abs/2209.11339) or free choice
-- **Day 70 (Sat, Buffer):** Review
+- **Day 65 (Thu, LLM):** [Efficient Attention Mechanisms](https://arxiv.org/abs/2009.14794) (linformer, or survey of efficient attention)
+- **Day 66 (Fri, Agentic):** [Hierarchical Reinforcement Learning + Transformers](https://arxiv.org/abs/2301.10149) or [Decision Transformers](https://arxiv.org/abs/2106.01022)
+- **Day 67 (Sat, Quantum):** [Quantum simulation with transformers](https://arxiv.org/abs/2309.07747) or free choice
+- **Day 68 (Sun, Bio):** [Protein design via Transformers](https://arxiv.org/abs/2306.11817) or [OmegaFold protein structure](https://arxiv.org/abs/2302.10221)
+- **Day 69 (Mon, Physical):** [Transformers for 3D scene understanding](https://arxiv.org/abs/2209.11339) or free choice
+- **Day 70 (Tue, Buffer):** Review
 
 ---
 
 ### Weeks 11-13 (Mini GPT / LLM pretraining + Fine-tuning): Hands-on LLM papers
 
 **Day 71-77 (Week 11):**
-- **Day 71 (Sun, LLM):** [Chinchilla: Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (Hoffmann et al., DeepMind) — how to allocate compute between model size and data
-- **Day 72 (Mon, Agentic):** [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) (Wei et al., Google) — in-context learning and other emergent properties
-- **Day 73 (Tue, Quantum):** Free choice or skip
-- **Day 74 (Wed, Bio):** [ProtGPT: Generation of protein sequences](https://www.nature.com/articles/s41467-022-32007-5) or similar
-- **Day 75 (Thu, Physical):** [Sim2Real Transfer Learning](https://arxiv.org/abs/1804.06432) or skip
-- **Day 76 (Fri, Chem):** [Generative models for chemical design](https://arxiv.org/abs/2306.16032) or [MolGPT for molecular generation](https://chemrxiv.org/engage/chemrxiv-admin/article-details/621ba5c88ead01dfbd098e34)
-- **Day 77 (Sat, Buffer):** Review
+- **Day 71 (Wed, LLM):** [Chinchilla: Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (Hoffmann et al., DeepMind) — how to allocate compute between model size and data
+- **Day 72 (Thu, Agentic):** [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682) (Wei et al., Google) — in-context learning and other emergent properties
+- **Day 73 (Fri, Quantum):** Free choice or skip
+- **Day 74 (Sat, Bio):** [ProtGPT: Generation of protein sequences](https://www.nature.com/articles/s41467-022-32007-5) or similar
+- **Day 75 (Sun, Physical):** [Sim2Real Transfer Learning](https://arxiv.org/abs/1804.06432) or skip
+- **Day 76 (Mon, Chem):** [Generative models for chemical design](https://arxiv.org/abs/2306.16032) or [MolGPT for molecular generation](https://chemrxiv.org/engage/chemrxiv-admin/article-details/621ba5c88ead01dfbd098e34)
+- **Day 77 (Tue, Buffer):** Review
 
 **Day 78-84 (Week 12):**
-- **Day 78 (Sun, LLM):** [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09228) — CORE paper for Phase 9, read deeply
-- **Day 79 (Mon, Agentic):** [Instruction Tuning and In-Context Learning](https://arxiv.org/abs/2301.13688) or [What makes a good in-context example?](https://arxiv.org/abs/2101.06032)
-- **Day 80 (Tue, Quantum):** Free choice
-- **Day 81 (Wed, Bio):** [Biological sequence design with language models](https://arxiv.org/abs/2204.12483) or similar
-- **Day 82 (Thu, Physical):** [Vision-and-Language models for robotics](https://arxiv.org/abs/2311.07935) or skip
-- **Day 83 (Fri, Chem):** [Transformer-based models for chemical property prediction](https://arxiv.org/abs/2306.15487) or free choice
-- **Day 84 (Sat, Buffer):** Review
+- **Day 78 (Wed, LLM):** [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09228) — CORE paper for Phase 9, read deeply
+- **Day 79 (Thu, Agentic):** [Instruction Tuning and In-Context Learning](https://arxiv.org/abs/2301.13688) or [What makes a good in-context example?](https://arxiv.org/abs/2101.06032)
+- **Day 80 (Fri, Quantum):** Free choice
+- **Day 81 (Sat, Bio):** [Biological sequence design with language models](https://arxiv.org/abs/2204.12483) or similar
+- **Day 82 (Sun, Physical):** [Vision-and-Language models for robotics](https://arxiv.org/abs/2311.07935) or skip
+- **Day 83 (Mon, Chem):** [Transformer-based models for chemical property prediction](https://arxiv.org/abs/2306.15487) or free choice
+- **Day 84 (Tue, Buffer):** Review
 
 **Day 85-91 (Week 13):**
-- **Day 85 (Sun, LLM):** [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) — CORE paper, read after LoRA
-- **Day 86 (Mon, Agentic):** [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416) (T5 FLAN paper, Google) — instruction tuning at scale
-- **Day 87 (Tue, Quantum):** Free choice or skip
-- **Day 88 (Wed, Bio):** [Multimodal Foundation Models for Biomedical Analysis](https://arxiv.org/abs/2310.10447) or similar
-- **Day 89 (Thu, Physical):** [Scaling Vision Transformers](https://arxiv.org/abs/2106.14881) or skip
-- **Day 90 (Fri, Chem):** [Multimodal LLMs for chemistry](https://arxiv.org/abs/2312.06091) or latest multimodal+chemistry
-- **Day 91 (Sat, Buffer):** Review
+- **Day 85 (Wed, LLM):** [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) — CORE paper, read after LoRA
+- **Day 86 (Thu, Agentic):** [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416) (T5 FLAN paper, Google) — instruction tuning at scale
+- **Day 87 (Fri, Quantum):** Free choice or skip
+- **Day 88 (Sat, Bio):** [Multimodal Foundation Models for Biomedical Analysis](https://arxiv.org/abs/2310.10447) or similar
+- **Day 89 (Sun, Physical):** [Scaling Vision Transformers](https://arxiv.org/abs/2106.14881) or skip
+- **Day 90 (Mon, Chem):** [Multimodal LLMs for chemistry](https://arxiv.org/abs/2312.06091) or latest multimodal+chemistry
+- **Day 91 (Tue, Buffer):** Review
 
 ---
 
 ### Weeks 14-15 (RAG + Retrieval): Information retrieval + grounding
 
 **Day 92-98 (Week 14):**
-- **Day 92 (Sun, LLM):** [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (Lewis et al., Meta) — THE RAG paper, read deeply
-- **Day 93 (Mon, Agentic):** [Retro: Retrieval-Enhanced Transformers](https://arxiv.org/abs/2112.04426) (DeepMind) — RAG at training time
-- **Day 94 (Tue, Quantum):** Free choice
-- **Day 95 (Wed, Bio):** [Retrieval + generation for literature mining in biology](https://arxiv.org/abs/2301.00289) or similar
-- **Day 96 (Thu, Physical):** [Memory + visual learning for robotics](https://arxiv.org/abs/1908.09155) or skip
-- **Day 97 (Fri, Chem):** [Knowledge graphs + ML for chemistry](https://arxiv.org/abs/2011.13519) or similar
-- **Day 98 (Sat, Buffer):** Review
+- **Day 92 (Wed, LLM):** [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (Lewis et al., Meta) — THE RAG paper, read deeply
+- **Day 93 (Thu, Agentic):** [Retro: Retrieval-Enhanced Transformers](https://arxiv.org/abs/2112.04426) (DeepMind) — RAG at training time
+- **Day 94 (Fri, Quantum):** Free choice
+- **Day 95 (Sat, Bio):** [Retrieval + generation for literature mining in biology](https://arxiv.org/abs/2301.00289) or similar
+- **Day 96 (Sun, Physical):** [Memory + visual learning for robotics](https://arxiv.org/abs/1908.09155) or skip
+- **Day 97 (Mon, Chem):** [Knowledge graphs + ML for chemistry](https://arxiv.org/abs/2011.13519) or similar
+- **Day 98 (Tue, Buffer):** Review
 
 **Day 99-105 (Week 15):**
-- **Day 99 (Sun, LLM):** [Improving language model factuality with retrieval](https://arxiv.org/abs/2303.07644) (Pagnoni et al.) or [Reducing hallucinations with RAG](https://arxiv.org/abs/2306.15591)
-- **Day 100 (Mon, Agentic):** [Tool calling / API use papers](https://arxiv.org/abs/2302.04761) — Toolformer (re-read if needed) or [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334)
-- **Day 101 (Tue, Quantum):** Free choice or skip
-- **Day 102 (Wed, Bio):** [Protein databases + retrieval for design](https://www.nature.com/articles/s41586-023-06510-w) or similar
-- **Day 103 (Thu, Physical):** [Scene graphs for visual understanding](https://arxiv.org/abs/1612.00563) or skip
-- **Day 104 (Fri, Chem):** [Molecular search + retrieval](https://arxiv.org/abs/2202.00657) or similar
-- **Day 105 (Sat, Buffer):** Review
+- **Day 99 (Wed, LLM):** [Improving language model factuality with retrieval](https://arxiv.org/abs/2303.07644) (Pagnoni et al.) or [Reducing hallucinations with RAG](https://arxiv.org/abs/2306.15591)
+- **Day 100 (Thu, Agentic):** [Tool calling / API use papers](https://arxiv.org/abs/2302.04761) — Toolformer (re-read if needed) or [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334)
+- **Day 101 (Fri, Quantum):** Free choice or skip
+- **Day 102 (Sat, Bio):** [Protein databases + retrieval for design](https://www.nature.com/articles/s41586-023-06510-w) or similar
+- **Day 103 (Sun, Physical):** [Scene graphs for visual understanding](https://arxiv.org/abs/1612.00563) or skip
+- **Day 104 (Mon, Chem):** [Molecular search + retrieval](https://arxiv.org/abs/2202.00657) or similar
+- **Day 105 (Tue, Buffer):** Review
 
 ---
 
 ### Weeks 16-17 (Agentic AI + Capstone): Agents and multi-agent systems
 
 **Day 106-112 (Week 16):**
-- **Day 106 (Sun, LLM):** [Few-shot learning in LLMs](https://arxiv.org/abs/1908.06461) (Brown et al.) or [Prompting: What works and why](https://arxiv.org/abs/2107.00166)
-- **Day 107 (Mon, Agentic):** **[ReAct](https://arxiv.org/abs/2210.03629)** — DEEP re-read, you're building agents now
-- **Day 108 (Tue, Quantum):** Free choice
-- **Day 109 (Wed, Bio):** [Multi-agent learning for protein structure](https://arxiv.org/abs/2306.15527) or similar
-- **Day 110 (Thu, Physical):** [Multi-robot coordination + learning](https://arxiv.org/abs/2005.11271) or skip
-- **Day 111 (Fri, Chem):** [Autonomous chemistry lab + RL](https://www.nature.com/articles/s41586-023-05887-0) or similar
-- **Day 112 (Sat, Buffer):** Review
+- **Day 106 (Wed, LLM):** [Few-shot learning in LLMs](https://arxiv.org/abs/1908.06461) (Brown et al.) or [Prompting: What works and why](https://arxiv.org/abs/2107.00166)
+- **Day 107 (Thu, Agentic):** **[ReAct](https://arxiv.org/abs/2210.03629)** — DEEP re-read, you're building agents now
+- **Day 108 (Fri, Quantum):** Free choice
+- **Day 109 (Sat, Bio):** [Multi-agent learning for protein structure](https://arxiv.org/abs/2306.15527) or similar
+- **Day 110 (Sun, Physical):** [Multi-robot coordination + learning](https://arxiv.org/abs/2005.11271) or skip
+- **Day 111 (Mon, Chem):** [Autonomous chemistry lab + RL](https://www.nature.com/articles/s41586-023-05887-0) or similar
+- **Day 112 (Tue, Buffer):** Review
 
 **Day 113-119 (Week 17):**
-- **Day 113 (Sun, LLM):** [Scaling LLMs with Sparse Experts](https://arxiv.org/abs/2101.03961) or [Token Merging for Efficient Transformers](https://arxiv.org/abs/2210.09461)
-- **Day 114 (Mon, Agentic):** [Large Language Models as Tool Makers](https://arxiv.org/abs/2305.17126) or [Self-Taught Evaluators](https://arxiv.org/abs/2305.20050)
-- **Day 115 (Tue, Quantum):** [Quantum Machine Learning Review 2024](https://arxiv.org/abs/2310.03787) or free choice
-- **Day 116 (Wed, Bio):** [Survey of LLMs in biology](https://arxiv.org/abs/2308.05177) or latest biomedical LLM
-- **Day 117 (Thu, Physical):** [Video understanding + robotics](https://arxiv.org/abs/2301.01597) or skip
-- **Day 118 (Fri, Chem):** [Latest AI+chemistry methods](https://huggingface.co/papers) — pick from trending
-- **Day 119 (Sat, Buffer):** Final review pass
+- **Day 113 (Wed, LLM):** [Scaling LLMs with Sparse Experts](https://arxiv.org/abs/2101.03961) or [Token Merging for Efficient Transformers](https://arxiv.org/abs/2210.09461)
+- **Day 114 (Thu, Agentic):** [Large Language Models as Tool Makers](https://arxiv.org/abs/2305.17126) or [Self-Taught Evaluators](https://arxiv.org/abs/2305.20050)
+- **Day 115 (Fri, Quantum):** [Quantum Machine Learning Review 2024](https://arxiv.org/abs/2310.03787) or free choice
+- **Day 116 (Sat, Bio):** [Survey of LLMs in biology](https://arxiv.org/abs/2308.05177) or latest biomedical LLM
+- **Day 117 (Sun, Physical):** [Video understanding + robotics](https://arxiv.org/abs/2301.01597) or skip
+- **Day 118 (Mon, Chem):** [Latest AI+chemistry methods](https://huggingface.co/papers) — pick from trending
+- **Day 119 (Tue, Buffer):** Final review pass
 
 **Day 120:**
 No new paper. Reflect on everything you've read across 120 days.
