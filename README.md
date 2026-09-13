@@ -11,13 +11,13 @@
 - **Key sections to focus on:** What to actually read carefully
 - **What you should explain afterward:** Your competency bar
 
-*(Dates updated so Day 1 begins Sunday, September 13, 2026.)*
+*(Dates updated so Day 1 begins Monday, September 14, 2026.)*
 
 ---
 
 ## WEEK 1 (Days 1-7)
 
-### Day 1 — Sunday Sept 13 — LLM/Transformer Track (Orientation)
+### Day 1 — Monday Sept 14 — LLM/Transformer Track (Orientation)
 **Paper:** [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - **Authors:** Vaswani et al., 2017
 - **Why it matters:** The foundational transformer architecture paper — literally created the architecture that powers every major LLM today (GPT, BERT, Llama, etc.). This is THE paper.
@@ -31,7 +31,7 @@
 
 ---
 
-### Day 2 — Monday Sept 14 — AI+Chemistry/Materials Track
+### Day 2 — Tuesday Sept 15 — AI+Chemistry/Materials Track
 **Paper:** [Equivariant Graph Neural Networks for Crystal Structures and Properties Prediction](https://arxiv.org/abs/2206.03349)
 - **Authors:** Dusson et al., 2022 (or use a simpler crystal-structure ML paper if this feels too advanced — search "SchNet crystal structure" for a slightly gentler entry)
 - **Why it matters:** Shows how neural networks can learn to predict molecular/crystal properties from structure — direct application of deep learning to materials science
@@ -45,7 +45,7 @@
 
 ---
 
-### Day 3 — Tuesday Sept 15 — Free Choice / Exploration Track
+### Day 3 — Wednesday Sept 16 — Free Choice / Exploration Track
 **Paper:** [Foundational LLM Papers You're Curious About](https://huggingface.co/papers)
 - **Instructions for Day 3:** Visit Hugging Face Daily Papers (https://huggingface.co/papers), scroll through "trending" papers today, and pick ONE that sounds interesting to you (any field, any depth). The point is to start building the habit of exploring without a rigid agenda once per week.
 - **Why it matters:** Builds pattern recognition and serendipity — sometimes the papers that shape your thinking are the random ones you stumble into
@@ -54,7 +54,7 @@
 
 ---
 
-### Day 4 — Wednesday Sept 16 — LLM/Transformer Track
+### Day 4 — Thursday Sept 17 — LLM/Transformer Track
 **Paper:** [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 - **Authors:** Devlin et al., Google, 2018
 - **Why it matters:** The paper that made masked language modeling famous — established encoder-only, bidirectional pretraining (contrasts with GPT's decoder-only, causal approach). You need to know BERT to understand why GPT was different and revolutionary.
@@ -68,7 +68,7 @@
 
 ---
 
-### Day 5 — Thursday Sept 17 — Agentic AI Track (Orientation)
+### Day 5 — Friday Sept 18 — Agentic AI Track (Orientation)
 **Paper:** [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 - **Authors:** Yao et al., 2022
 - **Why it matters:** Foundational agentic reasoning pattern — shows that having an LLM explicitly write out Thought/Action/Observation steps improves multi-step task performance. This is the core loop behind modern agents.
@@ -81,7 +81,7 @@
 
 ---
 
-### Day 6 — Friday Sept 18 — Quantum Computing Track (Orientation)
+### Day 6 — Saturday Sept 19 — Quantum Computing Track (Orientation)
 **Paper:** [Quantum Computing in the NISQ era and beyond](https://arxiv.org/abs/1801.00862)
 - **Authors:** Preskill, 2018
 - **Why it matters:** The definitive overview of Noisy Intermediate-Scale Quantum computing — what quantum computers can actually do today (not sci-fi), and what the roadmap looks like. Essential context for "quantum + AI" discussions.
@@ -95,14 +95,14 @@
 
 ---
 
-### Day 7 — Saturday Sept 19 — REVIEW & BUFFER DAY
+### Day 7 — Sunday Sept 20 — REVIEW & BUFFER DAY
 **No new paper.** Use this day to re-skim one of the papers from this week that felt hardest, and add 2-3 flashcards for core concepts.
 
 ---
 
 ## WEEK 2 (Days 8-14)
 
-### Day 8 — Sunday Sept 20 — AI+Biology Track
+### Day 8 — Monday Sept 21 — AI+Biology Track
 **Paper:** [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) or [ArXiv version](https://arxiv.org/abs/2010.11288)
 - **Authors:** Jumper et al., DeepMind, 2020 (published Nature 2021)
 - **Why it matters:** Solved a 50-year-old problem (protein structure prediction) using deep learning — a watershed moment for AI+biology. Shows the power of ML applied to hard scientific problems.
@@ -116,7 +116,7 @@
 
 ---
 
-### Day 9 — Monday Sept 21 — Physical AI / Robotics Track
+### Day 9 — Tuesday Sept 22 — Physical AI / Robotics Track
 **Paper:** [Mobile ALOHA: Learning Bimanual Mobile Manipulation](https://arxiv.org/abs/2401.02117)
 - **Authors:** Fu et al., Stanford, 2024
 - **Why it matters:** Shows physical robots learning to manipulate objects by watching human demonstrations — embodied AI where the "thinking" must be grounded in the real world
@@ -130,12 +130,12 @@
 
 ---
 
-### Day 10 — Tuesday Sept 22 — Free Choice
+### Day 10 — Wednesday Sept 23 — Free Choice
 **Hugging Face Daily Papers** — pick another interesting paper, any domain.
 
 ---
 
-### Day 11 — Wednesday Sept 23 — LLM/Transformer Track
+### Day 11 — Thursday Sept 24 — LLM/Transformer Track
 **Paper:** [Language Models are Unsupervised Multitask Learners (GPT-2)](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 - **Authors:** Radford et al., OpenAI, 2019
 - **Why it matters:** The paper that showed "just scale up a decoder-only transformer on internet text, and it learns to do many tasks via prompting." Established the GPT lineage and the philosophy behind modern LLMs.
@@ -148,7 +148,7 @@
 
 ---
 
-### Day 12 — Thursday Sept 24 — Agentic AI Track
+### Day 12 — Friday Sept 25 — Agentic AI Track
 **Paper:** [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
 - **Authors:** Schick et al., Meta, 2023
 - **Why it matters:** Early influential work showing that LLMs can learn to call tools (APIs) from self-supervised data generation — the precursor to modern tool-calling agents
@@ -162,7 +162,7 @@
 
 ---
 
-### Day 13 — Friday Sept 25 — Quantum+AI Track
+### Day 13 — Saturday Sept 26 — Quantum+AI Track
 **Paper:** [Quantum machine learning in feature Hilbert spaces](https://arxiv.org/abs/1803.07128) or [Quantum Computing for Machine Learning](https://arxiv.org/abs/2209.00045)
 - **Authors:** Schuld & Killoran, 2019 (or Schuld et al., 2022 for the second)
 - **Why it matters:** Explores where quantum computing might actually accelerate machine learning (kernel methods, sampling, optimization) — honest about what's still theoretical vs. near-term practical
@@ -176,14 +176,14 @@
 
 ---
 
-### Day 14 — Saturday Sept 26 — REVIEW & BUFFER DAY
+### Day 14 — Sunday Sept 27 — REVIEW & BUFFER DAY
 **No new paper.** Review this week's papers, add flashcards for: BERT vs. GPT architectural difference, ReAct loop phases, AlphaFold protein structure insight.
 
 ---
 
 ## WEEK 3 (Days 15-21)
 
-### Day 15 — Sunday Sept 27 — AI+Biology Track
+### Day 15 — Monday Sept 28 — AI+Biology Track
 **Paper:** [Generative modeling for protein design](https://arxiv.org/abs/2304.12954) (or a recent protein generation paper from 2024 — check HF Daily Papers for "protein generation + LLM")
 - **Why it matters:** Using deep generative models (diffusion or transformers) to design new proteins with desired properties — generative AI applied to structural biology
 - **Prerequisite knowledge:** Transformers, embeddings, protein structure basics
@@ -196,7 +196,7 @@
 
 ---
 
-### Day 16 — Monday Sept 28 — Physical AI / Robotics Track
+### Day 16 — Tuesday Sept 29 — Physical AI / Robotics Track
 **Paper:** [Learning to manipulate deformable objects without demonstrations](https://arxiv.org/abs/1910.04677) or [Learning from Play](https://arxiv.org/abs/1802.10675)
 - **Why it matters:** Robots learning from self-play rather than demonstrations — more general than imitation learning
 - **Prerequisite knowledge:** Reinforcement learning basics (you haven't studied this yet, but the paper is still skimmable)
@@ -209,12 +209,12 @@
 
 ---
 
-### Day 17 — Tuesday Sept 29 — Free Choice
+### Day 17 — Wednesday Sept 30 — Free Choice
 **Hugging Face Daily Papers** — pick one
 
 ---
 
-### Day 18 — Wednesday Sept 30 — LLM/Transformer Track
+### Day 18 — Thursday Oct 1 — LLM/Transformer Track
 **Paper:** [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155)
 - **Authors:** Ouyang et al., OpenAI, 2022
 - **Why it matters:** The paper that established the SFT → RM → RLHF pipeline for turning a base LLM into a helpful assistant. This is the exact workflow behind ChatGPT and modern instruction-tuned models.
@@ -228,7 +228,7 @@
 
 ---
 
-### Day 19 — Thursday Oct 1 — Agentic AI Track
+### Day 19 — Friday Oct 2 — Agentic AI Track
 **Paper:** [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)
 - **Authors:** Madaan et al., 2023
 - **Why it matters:** Agents that give themselves feedback and refine their outputs — a step beyond ReAct. Shows agentic loops can be used for self-improvement
@@ -242,7 +242,7 @@
 
 ---
 
-### Day 20 — Friday Oct 2 — Quantum Computing Track
+### Day 20 — Saturday Oct 3 — Quantum Computing Track
 **Paper:** [Quantum Advantage in Learning from Experiments](https://arxiv.org/abs/2112.00882) or [Quantum machine learning at the boundary of quantum computing](https://www.nature.com/articles/s43588-022-00353-7)
 - **Why it matters:** Honest assessment of where quantum ML might actually provide advantages — tempers hype with realism
 - **Prerequisite knowledge:** Quantum computing, ML basics
@@ -255,14 +255,14 @@
 
 ---
 
-### Day 21 — Saturday Oct 3 — REVIEW & BUFFER DAY
+### Day 21 — Sunday Oct 4 — REVIEW & BUFFER DAY
 **No new paper.** Review weeks 1-3, consolidate flashcards, re-read InstructGPT abstract and the 3-step diagram.
 
 ---
 
 ## WEEK 4 (Days 22-28)
 
-### Day 22 — Sunday Oct 4 — AI+Chemistry/Materials Track
+### Day 22 — Monday Oct 5 — AI+Chemistry/Materials Track
 **Paper:** [Equivariant neural networks for direct force field fitting](https://arxiv.org/abs/2305.10537) or [Learning equivariant neural networks for molecular geometry](https://arxiv.org/abs/1812.00568)
 - **Why it matters:** Using graph neural networks with symmetry constraints (equivariance) to predict molecular/materials properties — foundational for AI+chemistry
 - **Prerequisite knowledge:** Graph neural networks, molecular representations
@@ -275,7 +275,7 @@
 
 ---
 
-### Day 23 — Monday Oct 5 — Physical AI / Robotics Track
+### Day 23 — Tuesday Oct 6 — Physical AI / Robotics Track
 **Paper:** [End-to-End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
 - **Authors:** Bojarski et al., NVIDIA, 2016
 - **Why it matters:** Foundational paper on end-to-end neural networks for autonomous vehicles — shows deep learning directly from images to control signals
@@ -290,12 +290,12 @@
 
 ---
 
-### Day 24 — Tuesday Oct 6 — Free Choice
+### Day 24 — Wednesday Oct 7 — Free Choice
 **Hugging Face Daily Papers** — pick one
 
 ---
 
-### Day 25 — Wednesday Oct 7 — LLM/Transformer Track
+### Day 25 — Thursday Oct 8 — LLM/Transformer Track
 **Paper:** [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
 - **Authors:** Kaplan et al., OpenAI, 2020
 - **Why it matters:** Empirically established that LLM performance scales as a power law with model size, dataset size, and compute — foundational for understanding why "bigger = better" works
@@ -309,7 +309,7 @@
 
 ---
 
-### Day 26 — Thursday Oct 8 — Agentic AI Track
+### Day 26 — Friday Oct 9 — Agentic AI Track
 **Paper:** [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 - **Authors:** Wei et al., Google, 2022
 - **Why it matters:** The chain-of-thought idea (show examples with step-by-step reasoning) dramatically improves LLM performance on reasoning tasks. Foundational for understanding why reasoning-based agents work
@@ -323,7 +323,7 @@
 
 ---
 
-### Day 27 — Friday Oct 9 — Quantum+AI Track
+### Day 27 — Saturday Oct 10 — Quantum+AI Track
 **Paper:** [Quantum Neural Networks with Classical Resources](https://arxiv.org/abs/2310.11746) or [Quantum computing for finance: portfolio optimization](https://arxiv.org/abs/2007.10314)
 - **Why it matters:** Practical (or near-practical) quantum ML applications — what could actually run on near-term quantum hardware
 - **Prerequisite knowledge:** Quantum basics, ML basics
@@ -335,7 +335,7 @@
 
 ---
 
-### Day 28 — Saturday Oct 10 — REVIEW & BUFFER DAY
+### Day 28 — Sunday Oct 11 — REVIEW & BUFFER DAY
 **No new paper.** Review month 1's papers. You should now have ~20 papers under your belt and be developing real pattern recognition for what papers are about before reading them.
 
 ---
