@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=Opn3lAURnF8
+
 ## Day 1: Setting Up Your Arsenal
 * **The Goal:** Install and configure Burp Suite and your browser proxy.
 * **The Tools:** 
