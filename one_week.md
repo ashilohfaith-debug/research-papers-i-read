@@ -1,71 +1,70 @@
 ## Day 1: Setting Up Your Arsenal
-* **The Goal:** Install and configure your core hacking tool.
+* **The Goal:** Install and configure Burp Suite and your browser proxy.
 * **The Tools:** 
-  * **Burp Suite Community Edition** (Free web interception proxy).
-  * **FoxyProxy** (Browser extension to route traffic easily into Burp).
+  * **Burp Suite Community Edition** (Free interception proxy).
+  * **FoxyProxy** (Browser extension).
 * **Hands-On Action:**
-  1. Download and install Burp Suite.
-  2. Configure your browser to route traffic through `127.0.0.1:8080` using FoxyProxy.
-  3. Install Burp’s CA certificate in your browser so you can inspect secure (HTTPS) traffic.
-  4. Turn **Intercept On** in Burp, visit a website, and watch your browser's request pause inside Burp. Click **Forward** to let it load.
+  1. Install Burp Suite and configure your browser to route traffic through `127.0.0.1:8080` using FoxyProxy.
+  2. Install Burp’s CA certificate in your browser so you can inspect HTTPS traffic.
+  3. Turn **Intercept On** in Burp, visit a website, and verify that you can pause, view, and forward web traffic.
 
 ---
 
-## Day 2: Mastering HTTP Requests & Responses
-* **The Goal:** Understand how websites talk to servers (GET, POST, headers, parameters).
+## Day 2: Understanding HTTP & Redirect Parameters
+* **The Goal:** Learn how websites handle page routing and user navigation using parameters.
 * **Free Resource:** PortSwigger Web Security Academy (create a free account).  
 * **Hands-On Action:**
-  1. Go to PortSwigger Academy and open their free lab for "HTTP basics" or just look at any login page.
-  2. Capture a login request in Burp Suite. Identify:
-     * **The Method:** Is it `GET` or `POST`?
-     * **The Path:** E.g., `/login.php`.
-     * **The Parameters:** E.g., `username=test&password=123`.
-  3. Right-click the request in Burp and select **Send to Repeater**. Change a parameter value manually and hit **Send** to see how the server responds differently.
+  1. Log into a web app or lab environment and trigger a login or logout action.
+  2. Capture the request in Burp Suite and look for parameters controlling where the user goes next (e.g., `?returnPath=`, `?next=`, `?url=`).
+  3. Send the request to Burp Repeater, modify the redirection parameter value, and observe how the server reacts.
 
 ---
 
-## Day 3: Hunting Your First Vulnerability (Reflected XSS)
-* **The Goal:** Learn Cross-Site Scripting (XSS), one of the easiest beginner bugs to spot.
-* **The Concept:** Finding a text box, search bar, or URL parameter where what you type gets printed right back onto the web page without safety checks.
+## Day 3: Mastering Open Redirect Mechanics
+* **The Goal:** Learn how open redirect vulnerabilities happen and how to spot them manually.
+* **The Concept:** Testing if an application blindly accepts an external URL in a redirection parameter.
 * **Hands-On Action:**
-  1. Go to PortSwigger Web Security Academy -> **Cross-Site Scripting (XSS)** -> complete the "Reflected XSS into HTML context with nothing encoded" lab.
-  2. Find the search box in the lab, and type this exact payload: `<script>alert(1)</script>`
-  3. If a pop-up box saying `1` appears, you have successfully executed XSS!
+  1. Find a parameter designated for redirection (e.g., `url=https://internal-site.com`).
+  2. Swap out the internal URL with an external domain (e.g., `https://www.google.com`).
+  3. Check if the application redirects your browser straight to the external site without warning.
 
 ---
 
-## Day 4: Leveling Up to Logic Flaws (IDOR)
-* **The Goal:** Learn Insecure Direct Object Reference (IDOR)—the king of beginner bug bounty payouts.
-* **The Concept:** When a website trusts user input blindly to fetch private files or profile IDs (e.g., `/account?id=101`).
+## Day 4: Practicing Filter Bypasses
+* **The Goal:** Learn how developers try to block open redirects and how to bypass those defenses.
+* **The Concept:** Bypassing weak regular expressions or filters that look for specific strings.
 * **Hands-On Action:**
-  1. Go to PortSwigger Academy -> **Access Control** topic -> complete a free IDOR lab (e.g., viewing other users' profiles by changing an ID number).
-  2. Practice changing numbers in URLs or request bodies using Burp Repeater to see if you can access data belonging to a different simulated user account.
+  1. Test common bypass variations if a basic external URL is blocked:
+     * Protocol-relative URLs: `//google.com`
+     * Backslash tricks: `/\google.com`
+     * Using an `@` symbol or subdomain prefix trick.
+  2. Test these variations inside a local lab environment or a practice lab to see which inputs trick the server into redirecting anyway.
 
 ---
 
-## Day 5: Choosing Your Target & Reconnaissance
-* **The Goal:** Pick a real, beginner-friendly public program on HackerOne.
+## Day 5: Setting Up a Local Lab & Testing Ground
+* **The Goal:** Practice open redirect hunting safely in a controlled environment.
 * **Hands-On Action:**
-  1. Log into your free HackerOne account and head to the **Directory / Hacktivity** page.
-  2. Look for a small public program (avoid tech giants like Google/Meta). Read their policy rules carefully (check what features are in-scope).
-  3. Create a normal account on that target web app, and spend 2 hours clicking every button while Burp Suite maps out all their endpoints, JavaScript files, and directories in the background.
+  1. Set up a local test environment like **DVWA (Damn Vulnerable Web Application)** via XAMPP or Docker, which features pre-built vulnerable redirection scripts.
+  2. Alternatively, use the free **PortSwigger Web Security Academy** labs dedicated to open redirection.
+  3. Spend 2 hours intentionally breaking and exploiting redirection flows in the local environment.
 
 ---
 
-## Day 6: Manual Testing Session
-* **The Goal:** Apply what you learned on Days 3 and 4 to your chosen target.
+## Day 6: Recon on Target Platforms
+* **The Goal:** Look for redirection parameters in real-world applications or public bug bounty targets.
 * **Hands-On Action:**
-  1. Test input forms and search boxes for XSS or input reflection.
-  2. Look at every URL containing numbers or unique identifiers (like user profiles, shopping carts, or message IDs) and test for IDOR by swapping values.
-  3. **Remember:** Only test features explicitly marked **In-Scope** in the program policy.
+  1. Open a beginner-friendly public program scope on HackerOne.
+  2. Browse features that require redirection—such as login pages, single sign-on (SSO) flows, language switchers, or "back to safety" buttons.
+  3. Map out every parameter handling paths or URLs using Burp Suite's proxy history.
 
 ---
 
-## Day 7: Writing a Professional Bug Report
-* **The Goal:** Learn how to document and submit a finding correctly.
+## Day 7: Documenting and Reporting Open Redirects
+* **The Goal:** Learn how to write a clear, professional report for an open redirect finding.
 * **Hands-On Action:**
-  1. Even if you haven't found a live bug yet (which is normal in week one), go to HackerOne's public **Hacktivity** page and read 5 disclosed reports submitted by other hackers.
-  2. Notice the structure of a winning report:
-     * **Title & Description:** Clear summary of the issue.
-     * **Steps to Reproduce:** Step-by-step instructions so the triage team can easily recreate it.
-     * **Impact:** What an attacker could achieve with this bug (e.g., "Allows an attacker to read arbitrary user profile data").
+  1. Review how other researchers report open redirects by looking at public disclosures on HackerOne's Hacktivity.
+  2. Draft a mock report detailing:
+     * **Vulnerable Endpoint:** Exact URL and parameter.
+     * **Proof of Concept:** Step-by-step reproduction instructions showing the crafted malicious link.
+     * **Impact:** Explaining how an attacker could leverage the redirect for phishing or chaining into other bugs.
